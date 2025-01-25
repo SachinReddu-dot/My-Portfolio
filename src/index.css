@@ -9,7 +9,7 @@ body::-webkit-scrollbar{
 /* COMBO-1 */
 @font-face{
   font-family: oswald;
-  src: url(src/assets/Font/combo3/oswald/Oswald-Regular.ttf);
+  src: url(./src/assets/Font/combo3/oswald/Oswald-Regular.ttf);
 }
 @font-face{
   font-family: opensans;
