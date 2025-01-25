@@ -43,7 +43,7 @@ const About = () => {
                 {/* Left Side */}
                 <div className='w-1/2 max-sm:w-full h-full relative flex flex-col leading-[250px] px-10 max-sm:px-5'>
                     <div className='w-full h-2/3 max-sm:h-[600px] bg-red-900 overflow-hidden'>
-                        <img className='w-full h-screen object-cover object-bottom grayscale hover:grayscale-0' src="./assets/Project-images/ME..jpeg" alt="" />
+                        <img className='w-full h-screen object-cover object-bottom grayscale hover:grayscale-0' src="/src/assets/Project-images/ME..jpeg" alt="" />
                     </div>
                     <div className=' w-[700px] overflow-hidden relative flex font-[oswald] uppercase font-semibold text-[15vw] max-sm:text-8xl tracking-tight'>
                         {["s","a","c","h","i","n"].map((e)=>{
