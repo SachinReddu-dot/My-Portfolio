@@ -45,7 +45,7 @@ const About = () => {
                     <div className='w-full h-2/3 max-sm:h-[600px] bg-red-900 overflow-hidden'>
                         <img className='w-full h-screen object-cover object-bottom grayscale hover:grayscale-0' src="./src/assets/Project-images/ME..jpeg" alt="" />
                     </div>
-                    <div className=' w-[700px] overflow-hidden relative flex font-[oswald] uppercase font-semibold text-[15vw] max-sm:text-8xl tracking-tight'>
+                    <div className=' w-[700px] overflow-hidden relative flex font-sans uppercase font-semibold text-[15vw] max-sm:text-8xl tracking-tight'>
                         {["s","a","c","h","i","n"].map((e)=>{
                             return <h1 className='text'>{e}</h1>
                         })}
