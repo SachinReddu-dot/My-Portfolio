@@ -33,10 +33,11 @@ const Page22 = () => {
             </div>
             <div className='w-full h-screen'>
             </div>
+
             <div className='w-full h-screen relative'>
                 <div className='absolute left-40 max-sm:left-10'>
                     <div className=' h-[650px] max-sm:h-[370px] w-[400px] max-sm:w-[200px] bg-red-900 rounded-md overflow-hidden'>
-                        <img className='w-full h-full object-cover object-left' src="public/Project-images/ThirtysixstudioSS.png" alt="" />
+                        <img className='w-full h-full object-cover object-left' src="src/assets/Project-images/ThirtysixstudioSS.png" alt="" />
                     </div>
                     <h1 className='text-4xl max-sm:text-2xl font-[opensans] mix-blend-difference mt-3'>Thirtysixstudio</h1>
                 </div> 
@@ -44,17 +45,17 @@ const Page22 = () => {
             <div className='w-full h-screen relative'>
                 <div className='absolute right-10 -top-60'>
                     <div className='h-[650px] max-sm:h-[370px] w-[400px] max-sm:w-[200px] bg-red-900 rounded-md overflow-hidden'>
-                        <img className='w-full h-full object-cover object-left' src="public/Project-images/DUO-SS.png" alt="" />
+                        <img className='w-full h-full object-cover object-left' src="src/assets/Project-images/OchiSS.png" alt="" />
                     </div>
-                    <h1 className='text-4xl max-sm:text-2xl mt-3 font-[opensans] mix-blend-difference'>DUO</h1>
+                    <h1 className='text-4xl max-sm:text-2xl mt-3 font-[opensans] mix-blend-difference'>Ochi</h1>
                 </div>
             </div>
             <div className='w-full h-screen relative'>
                 <div className='absolute -top-60 max-sm:-top-[500px] left-[27%] max-sm:left-20'>
                     <div className='h-[650px] max-sm:h-[370px] w-[400px] max-sm:w-[200px] overflow-hidden bg-red-900 rounded-md'>
-                        <img className='w-full h-full object-cover object-left' src="public/Project-images/OchiSS.png" alt="" />
+                        <img className='w-full h-full object-cover object-left' src="src/assets/Project-images/DUO-SS.png" alt="" />
                     </div>
-                    <h1 className='text-4xl max-sm:text-2xl mt-3 font-[opensans] mix-blend-difference'>Ochi</h1>
+                    <h1 className='text-4xl max-sm:text-2xl mt-3 font-[opensans] mix-blend-difference'>DUO</h1>
                 </div>
             </div>
 

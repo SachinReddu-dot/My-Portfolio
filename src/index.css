@@ -8,62 +8,17 @@ body::-webkit-scrollbar{
 
 /* COMBO-1 */
 @font-face{
-  font-family: aileron;
-  src: url('public/Font/combo1/aileron/Aileron-Regular.otf');
-}
-@font-face{
-  font-family: anek;
-  src: url('public/Font/combo1/anek/fonts/AnekLatin/variable/AnekLatin[wdth,wght].ttf');
-}
-
-/* COMBO-2 */
-@font-face{
-  font-family: roboto;
-  src: url('public/Font/combo2/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf');
-}
-@font-face{
-  font-family: mulish;
-  src: url('public/Font/combo2/Mulish/static/Mulish-Regular.ttf');
-}
-
-/* COMBO-3 */
-@font-face{
   font-family: oswald;
-  src: url('public/Font/combo3/oswald/Oswald-Regular.ttf');
+  src: url(src/assets/Font/combo3/oswald/Oswald-Regular.ttf);
 }
 @font-face{
   font-family: opensans;
-  src: url('public/Font/combo3/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf');
-}
-
-/* COMBO-4 */
-@font-face{
-  font-family: liberationsans;
-  src: url('public/Font/combo4/liberation_sans/LiberationSans-Regular.ttf');
-}
-@font-face{
-  font-family: liberationserif;
-  src: url('public/Font/combo4/liberation-serif/LiberationSerif-Regular.ttf');
-}
-
-/* COMBO-5 */
-@font-face{
-  font-family: callunareg;
-  src: url('public/Font/combo5/calluna-regular_byyRJ/Calluna Regular/CallunaRegular.otf');
-}
-@font-face{
-  font-family: callunasans;
-  src: url('public/Font/combo5/calluna-sans/CallunaSans-Regular.otf');
+  src: url(src/assets/Font/combo3/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf);
 }
 
 @font-face{
   font-family: lora;
-  src: url(public/Font/Lora/Lora-VariableFont_wght.ttf);
-}
-
-@font-face{
-  font-family: font12;
-  src: url(public/fonts/lemon-wide.otf);
+  src: url(src/assets/Font/Lora/Lora-VariableFont_wght.ttf);
 }
 
 *{

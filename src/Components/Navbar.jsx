@@ -39,7 +39,7 @@ const Navbar = () => {
     <>
         <div className='w-full relative font-[opensans]'>
             <i onClick={upar} class="fixed z-[995] right-20 max-sm:right-5 top-10 text-4xl max-sm:text-3xl ri-menu-3-fill hover:cursor-pointer"></i>
-            <a href='public/Sachin-Reddu-Resume.pdf' download="SachinResumeDownloaded" class="fixed h-10 max-sm:h-9 w-10 max-sm:w-9 z-[995] right-20 max-sm:right-4 top-24 bg-white rounded-full hover:cursor-pointer text-black flex items-center justify-center">
+            <a href='src/assets/Sachin-Reddu-Resume.pdf' download="SachinResumeDownloaded" class="fixed h-10 max-sm:h-9 w-10 max-sm:w-9 z-[995] right-20 max-sm:right-4 top-24 bg-white rounded-full hover:cursor-pointer text-black flex items-center justify-center">
                 <h3 className='text-2xl max-sm:text-lg font-semibold font-[oswald]'>CV</h3> 
             </a>
             <div className='menu z-[996] translate-y-[100%] h-screen bg-[rgb(1,32,105)] w-full fixed'>
@@ -89,7 +89,7 @@ const Navbar = () => {
 
                     <div className='backdrop-blur-xl bg-blue-950/60 rounded-lg overflow-hidden w-[600px] h-[500px] absolute right-40 -top-20 flex flex-col gap-1 max-sm:gap-5 max-sm:w-full max-sm:relative max-sm:h-[400px] max-sm:right-0 max-sm:top-10'>
                         <div className='w-full h-[300px] max-sm:h-[220px]  flex items-center'>
-                            <img className=' w-full h-full object-center object-cover grayscale hover:grayscale-0 ' src="public/Project-images/ME..jpeg" alt="" />
+                            <img className=' w-full h-full object-center object-cover grayscale hover:grayscale-0 ' src="src/assets/Project-images/ME..jpeg" alt="" />
                         </div>
                         <p className='text-xl mt-10 max-sm:mt-0 text-justify font-semibold px-7 max-sm:px-5 max-sm:text-base'>
                         Hello there, I'm Sachin - I design web that are user-friendly, beautiful & convert your target audience - Currently based in <span className='line-through opacity-70'>Thana</span> ,Thane India.</p>

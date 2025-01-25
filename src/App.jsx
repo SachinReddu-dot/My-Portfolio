@@ -28,9 +28,9 @@ const App = () => {
 
     requestAnimationFrame(raf);
 
-    document.addEventListener("contextmenu",function(e){
-      e.preventDefault();
-    },false)
+    // document.addEventListener("contextmenu",function(e){
+    //   e.preventDefault();
+    // },false)
   })
 
   const cursor = (dets) => {
@@ -55,7 +55,7 @@ const App = () => {
               <Line/>
               <Scroll2/>            
               <ContactPage2/>
-/          </Suspense>
+          </Suspense>
       </div>
     </>
   )

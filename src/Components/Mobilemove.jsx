@@ -188,7 +188,7 @@ function helloleave6(){
                         <i class="mr-7 ri-add-line">{circle0 ? hello0() : helloleave0()}</i>
                     </div>
                     <div className='h-[250px] w-full mt-5'>
-                        <img className='h-full w-full object-contain' src="public/Project-images/CareTrack.png" alt="" />
+                        <img className='h-full w-full object-contain' src="src/assets/Project-images/CareTrack.png" alt="" />
                     </div>
                     <a href="https://github.com/frazaq/Internship_Techplement.git"><button className='w-32 h-10 rounded-full bg-white text-black mt-5'>Visit <i class="ri-links-line"></i> </button></a>
                 </div>
@@ -203,7 +203,7 @@ function helloleave6(){
                         <i class="mr-7 ri-add-line">{circle1 ? hello1() : helloleave1()}</i>
                     </div>
                     <div className='h-[250px] w-full mt-5'>
-                        <img className='h-full w-full object-contain' src="public/Project-images/ThirtysixstudioSS.png" alt="" />
+                        <img className='h-full w-full object-contain' src="src/assets/Project-images/ThirtysixstudioSS.png" alt="" />
                     </div>
                     <a href="https://github.com/SachinReddu-dot?tab=repositories"><button className='w-32 h-10 rounded-full bg-white text-black mt-5'>Visit <i class="ri-links-line"></i> </button></a>
                 </div>
@@ -218,7 +218,7 @@ function helloleave6(){
                         <i class="mr-7 ri-add-line">{circle2 ? hello2() : helloleave2()}</i>
                     </div>
                     <div className='h-[250px] w-full mt-5'>
-                        <img className='h-full w-full object-contain' src="public/Project-images/OchiSS.png" alt="" />
+                        <img className='h-full w-full object-contain' src="src/assets/Project-images/OchiSS.png" alt="" />
                     </div>
                     <a href="https://github.com/SachinReddu-dot/ochi.git"><button className='w-32 h-10 rounded-full bg-white text-black mt-5'>Visit <i class="ri-links-line"></i> </button></a>
                 </div>
@@ -233,7 +233,7 @@ function helloleave6(){
                         <i class="mr-7 ri-add-line">{circle3 ? hello3() : helloleave3()}</i>
                     </div>
                     <div className='h-[250px] w-full mt-5'>
-                        <img className='h-full w-full object-contain' src="public/Project-images/DUO-SS.png" alt="" />
+                        <img className='h-full w-full object-contain' src="src/assets/Project-images/DUO-SS.png" alt="" />
                     </div>
                     <a href="https://github.com/SachinReddu-dot?tab=repositories"><button className='w-32 h-10 rounded-full bg-white text-black mt-5'>Visit <i class="ri-links-line"></i> </button></a>
                 </div>
@@ -248,7 +248,7 @@ function helloleave6(){
                         <i class="mr-7 ri-add-line">{circle4 ? hello4() : helloleave4()}</i>
                     </div>
                     <div className='h-[250px] w-full mt-5'>
-                        <img className='h-full w-full object-contain' src="public/Project-images/TwogoodSS.png" alt="" />
+                        <img className='h-full w-full object-contain' src="src/assets/Project-images/TwogoodSS.png" alt="" />
                     </div>
                     <a href="https://github.com/SachinReddu-dot?tab=repositories"><button className='w-32 h-10 rounded-full bg-white text-black mt-5'>Visit <i class="ri-links-line"></i> </button></a>
                 </div>
@@ -263,7 +263,7 @@ function helloleave6(){
                         <i class="mr-7 ri-add-line">{circle5 ? hello5() : helloleave5()}</i>
                     </div>
                     <div className='h-[250px] w-full mt-5'>
-                        <img className='h-full w-full object-contain' src="public/Project-images/AnzoportSS.png" alt="" />
+                        <img className='h-full w-full object-contain' src="src/assets/Project-images/AnzoportSS.png" alt="" />
                     </div>
                     <a href="https://github.com/SachinReddu-dot?tab=repositories"><button className='w-32 h-10 rounded-full bg-white text-black mt-5'>Visit <i class="ri-links-line"></i> </button></a>
                 </div>
@@ -278,7 +278,7 @@ function helloleave6(){
                         <i class="mr-7 ri-add-line">{circle6 ? hello6() : helloleave6()}</i>
                     </div>
                     <div className='h-[250px] w-full mt-5'>
-                        <img className='h-full w-full object-contain' src="public/Project-images/supreme.png" alt="" />
+                        <img className='h-full w-full object-contain' src="src/assets/Project-images/supreme.png" alt="" />
                     </div>
                     <a href="https://github.com/SachinReddu-dot?tab=repositories"><button className='w-32 h-10 rounded-full bg-white text-black mt-5'>Visit <i class="ri-links-line"></i> </button></a>
                 </div>

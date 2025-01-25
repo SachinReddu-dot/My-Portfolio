@@ -345,7 +345,7 @@ const More = () => {
                                 <i class="opacity-0 ri-links-line"></i>
                             </button>
                             <div className='box0 opacity-0 scale-0 w-[700px] h-[400px] absolute top-[210px] rounded-xl overflow-hidden'> 
-                                <img className='w-full h-full object-cover object-center' src="public/Project-images/CareTrack.png" alt="" />
+                                <img className='w-full h-full object-cover object-center' src="src/assets/Project-images/CareTrack.png" alt="" />
                             </div>
                         </div>
                         <div className='w-full h-[1px] bg-white'></div>
@@ -361,7 +361,7 @@ const More = () => {
                                 <i class="opacity-0 ri-links-line"></i>
                             </button>                           
                             <div className='box1 opacity-0 scale-0 w-[700px] h-[400px] absolute top-[295px] rounded-xl overflow-hidden'> 
-                                <img className='w-full h-full object-cover object-center' src="public/Project-images/ThirtysixstudioSS.png" alt="" />
+                                <img className='w-full h-full object-cover object-center' src="src/assets/Project-images/ThirtysixstudioSS.png" alt="" />
                             </div>
                         </div>
                         <div className='w-full h-[1px] bg-white'></div>
@@ -377,7 +377,7 @@ const More = () => {
                                 <i class="opacity-0 ri-links-line"></i>
                             </button>                            
                             <div className='box2 opacity-0 scale-0 w-[700px] h-[400px]  absolute top-[395px] rounded-xl overflow-hidden'> 
-                                <img className='w-full h-full object-cover object-center' src="public/Project-images/OchiSS.png" alt="" />
+                                <img className='w-full h-full object-cover object-center' src="src/assets/Project-images/OchiSS.png" alt="" />
                             </div>
                         </div>
                         <div className='w-full h-[1px] bg-white'></div>
@@ -393,7 +393,7 @@ const More = () => {
                                 <i class="opacity-0 ri-links-line"></i>
                             </button>
                             <div className='box3 opacity-0 scale-0 w-[700px] h-[400px] absolute bottom-[480px] rounded-xl overflow-hidden'> 
-                                <img className='w-full h-full object-cover object-center' src="public/Project-images/DUO-SS.png" alt="" />
+                                <img className='w-full h-full object-cover object-center' src="src/assets/Project-images/DUO-SS.png" alt="" />
                             </div>
                         </div>
                         <div className='w-full h-[1px] bg-white'></div>
@@ -409,7 +409,7 @@ const More = () => {
                                 <i class="opacity-0 ri-links-line"></i>
                             </button>
                             <div className='box4 opacity-0 scale-0 w-[700px] h-[400px] absolute bottom-[390px] rounded-xl overflow-hidden'> 
-                                <img className='w-full h-full object-cover object-center' src="public/Project-images/AnzoportSS.png" alt="" />
+                                <img className='w-full h-full object-cover object-center' src="src/assets/Project-images/AnzoportSS.png" alt="" />
                             </div>
                         </div>
                         <div className='w-full h-[1px] bg-white'></div>
@@ -425,7 +425,7 @@ const More = () => {
                                 <i class="opacity-0 ri-links-line"></i>
                             </button>
                             <div className='box5 opacity-0 scale-0 w-[700px] h-[400px] absolute bottom-[305px] rounded-xl overflow-hidden'> 
-                                <img className='w-full h-full object-cover object-center' src="public/Project-images/TwogoodSS.png" alt="" />
+                                <img className='w-full h-full object-cover object-center' src="src/assets/Project-images/TwogoodSS.png" alt="" />
                             </div>
                         </div>
                         <div className='w-full h-[1px] bg-white'></div>
@@ -441,7 +441,7 @@ const More = () => {
                                 <i class="opacity-0 ri-links-line"></i>
                             </button>
                             <div className='box6 opacity-0 scale-0 w-[700px] h-[400px] absolute bottom-[230px] rounded-xl overflow-hidden'> 
-                                <img className='w-full h-full object-cover object-center' src="public/Project-images/supreme.png" alt="" />
+                                <img className='w-full h-full object-cover object-center' src="src/assets/Project-images/supreme.png" alt="" />
                             </div>
                         </div>
                         {/* <div className='w-full h-[1px] bg-white'></div> */}

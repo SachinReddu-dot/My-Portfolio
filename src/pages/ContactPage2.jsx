@@ -121,13 +121,13 @@ const ContactPage2 = () => {
                 <div className='relative w-1/4 max-sm:h-[250px] max-sm:w-full'>
                     {/* IMAGES */}
                     <div className='w-full h-full relative opacity-70 max-sm:pt-20'>
-                        <img className='img1 opacity-0 absolute w-full h-full object-cover object-left max-sm:object-center' src="public/Project-images/DUO-SS.png" alt="" />
-                        <img className='img2 opacity-0 absolute w-full h-full object-cover object-left max-sm:object-center' src="public/Project-images/OchiSS.png" alt="" />
-                        <img className='img3 opacity-0 absolute w-full h-full object-cover object-left max-sm:object-center' src="public/Project-images/ThirtysixstudioSS.png" alt="" />
-                        <img className='img4 opacity-0 absolute w-full h-full object-cover object-left max-sm:object-center' src="public/Project-images/CareTrack.png" alt="" />
-                        <img className='img5 opacity-0 absolute w-full h-full object-cover object-left max-sm:object-center' src="public/Project-images/AnzoportSS.png" alt="" />
-                        <img className='img6 opacity-0 absolute w-full h-full object-cover object-left max-sm:object-center' src="public/Project-images/supreme.png" alt="" />
-                        <img className='img7 opacity-0 absolute w-full h-full object-cover object-left max-sm:object-center' src="public/Project-images/TwogoodSS.png" alt="" />
+                        <img className='img1 opacity-0 absolute w-full h-full object-cover object-left max-sm:object-center' src="src/assets/Project-images/DUO-SS.png" alt="" />
+                        <img className='img2 opacity-0 absolute w-full h-full object-cover object-left max-sm:object-center' src="src/assets/Project-images/OchiSS.png" alt="" />
+                        <img className='img3 opacity-0 absolute w-full h-full object-cover object-left max-sm:object-center' src="src/assets/Project-images/ThirtysixstudioSS.png" alt="" />
+                        <img className='img4 opacity-0 absolute w-full h-full object-cover object-left max-sm:object-center' src="src/assets/Project-images/CareTrack.png" alt="" />
+                        <img className='img5 opacity-0 absolute w-full h-full object-cover object-left max-sm:object-center' src="src/assets/Project-images/AnzoportSS.png" alt="" />
+                        <img className='img6 opacity-0 absolute w-full h-full object-cover object-left max-sm:object-center' src="src/assets/Project-images/supreme.png" alt="" />
+                        <img className='img7 opacity-0 absolute w-full h-full object-cover object-left max-sm:object-center' src="src/assets/Project-images/TwogoodSS.png" alt="" />
                     </div>
                     {/* SOCIAL LINKS */}
                     <div className='w-full backdrop-blur-3xl h-[150px] max-sm:h-[70px] p-10 max-sm:p-0 absolute max-sm:relative max-sm:mt-10 bottom-0 flex items-center justify-center max-sm:justify-normal max-sm:pl-5 gap-3'>
