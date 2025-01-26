@@ -3,6 +3,15 @@ import gsap from 'gsap'
 import React from 'react'
 import { useState } from 'react'
 
+import image1 from '../assets/Project-images/DUO-SS.png'
+import image2 from '../assets/Project-images/TwogoodSS.png'
+import image3 from '../assets/Project-images/AnzoportSS.png'
+import image4 from '../assets/Project-images/OchiSS.png'
+import image5 from '../assets/Project-images/supreme.png'
+import image6 from '../assets/Project-images/ThirtysixstudioSS.png'
+import image7 from '../assets/Project-images/CareTrack.png'
+
+
 const ContactPage2 = () => {
 
     const [Result, setResult] = useState()
@@ -121,13 +130,13 @@ const ContactPage2 = () => {
                 <div className='relative w-1/4 max-sm:h-[250px] max-sm:w-full'>
                     {/* IMAGES */}
                     <div className='w-full h-full relative opacity-70 max-sm:pt-20'>
-                        <img className='img1 opacity-0 absolute w-full h-full object-cover object-left max-sm:object-center' src="src/assets/Project-images/DUO-SS.png" alt="" />
-                        <img className='img2 opacity-0 absolute w-full h-full object-cover object-left max-sm:object-center' src="src/assets/Project-images/OchiSS.png" alt="" />
-                        <img className='img3 opacity-0 absolute w-full h-full object-cover object-left max-sm:object-center' src="src/assets/Project-images/ThirtysixstudioSS.png" alt="" />
-                        <img className='img4 opacity-0 absolute w-full h-full object-cover object-left max-sm:object-center' src="src/assets/Project-images/CareTrack.png" alt="" />
-                        <img className='img5 opacity-0 absolute w-full h-full object-cover object-left max-sm:object-center' src="src/assets/Project-images/AnzoportSS.png" alt="" />
-                        <img className='img6 opacity-0 absolute w-full h-full object-cover object-left max-sm:object-center' src="src/assets/Project-images/supreme.png" alt="" />
-                        <img className='img7 opacity-0 absolute w-full h-full object-cover object-left max-sm:object-center' src="src/assets/Project-images/TwogoodSS.png" alt="" />
+                        <img className='img1 opacity-0 absolute w-full h-full object-cover object-left max-sm:object-center' src={image1} alt="" />
+                        <img className='img2 opacity-0 absolute w-full h-full object-cover object-left max-sm:object-center' src={image2} alt="" />
+                        <img className='img3 opacity-0 absolute w-full h-full object-cover object-left max-sm:object-center' src={image3} alt="" />
+                        <img className='img4 opacity-0 absolute w-full h-full object-cover object-left max-sm:object-center' src={image4} alt="" />
+                        <img className='img5 opacity-0 absolute w-full h-full object-cover object-left max-sm:object-center' src={image5} alt="" />
+                        <img className='img6 opacity-0 absolute w-full h-full object-cover object-left max-sm:object-center' src={image6} alt="" />
+                        <img className='img7 opacity-0 absolute w-full h-full object-cover object-left max-sm:object-center' src={image7} alt="" />
                     </div>
                     {/* SOCIAL LINKS */}
                     <div className='w-full backdrop-blur-3xl h-[150px] max-sm:h-[70px] p-10 max-sm:p-0 absolute max-sm:relative max-sm:mt-10 bottom-0 flex items-center justify-center max-sm:justify-normal max-sm:pl-5 gap-3'>
@@ -145,7 +154,7 @@ const ContactPage2 = () => {
                 <div className='w-2/3 max-sm:w-full max-sm:mt-5 bg-black max-sm:bg-[rgb(1,32,105)] rounded-tr-xl rounded-br-xl p-10 max-sm:px-3 max-sm:pt-28'>
                     <div className='h-full w-full '>
                         <div className='w-full font-sans max-sm:pl-2'>
-                            <h1 className='text-4xl font-semibold uppercase font-[oswald]'>Let's Talk</h1>
+                            <h1 className='text-4xl font-semibold uppercase'>Let's Talk</h1>
                             <p className='text-xl font-medium max-sm:text-lg mt-1 font-sans'>Whether you're looking for creative input or just want to chat, I'm here for it!</p>
                         </div>
                         <div className='w-full my-7 max-sm:my-10 flex max-sm:flex-col items-center gap-10 max-sm:gap-5 max-sm:pl-2'>

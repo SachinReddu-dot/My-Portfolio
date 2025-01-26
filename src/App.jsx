@@ -11,7 +11,6 @@ const Scroll2 = React.lazy(() => import("./Components/Scroll2"));
 const Page22 = React.lazy(() => import("./pages/Page22"));
 
 
-
 const App = () => {
 
   useEffect(()=>{

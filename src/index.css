@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 body::-webkit-scrollbar{
   display: none;
 }
@@ -9,16 +10,16 @@ body::-webkit-scrollbar{
 /* COMBO-1 */
 @font-face{
   font-family: oswald;
-  src: url(./src/assets/Font/combo3/oswald/Oswald-Regular.ttf);
+  src: url(./assets/Font/combo3/oswald/Oswald-Regular.ttf);
 }
 @font-face{
   font-family: opensans;
-  src: url(src/assets/Font/combo3/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf);
+  src: url(./assets/Font/combo3/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf);
 }
 
 @font-face{
   font-family: lora;
-  src: url(src/assets/Font/Lora/Lora-VariableFont_wght.ttf);
+  src: url(./assets/Font/Lora/Lora-VariableFont_wght.ttf);
 }
 
 *{

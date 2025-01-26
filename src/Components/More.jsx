@@ -2,6 +2,14 @@ import React from 'react'
 import gsap from 'gsap'
 import 'remixicon/fonts/remixicon.glyph.json'
 
+import image1 from '../assets/Project-images/DUO-SS.png'
+import image2 from '../assets/Project-images/TwogoodSS.png'
+import image3 from '../assets/Project-images/AnzoportSS.png'
+import image4 from '../assets/Project-images/OchiSS.png'
+import image5 from '../assets/Project-images/supreme.png'
+import image6 from '../assets/Project-images/ThirtysixstudioSS.png'
+import image7 from '../assets/Project-images/CareTrack.png'
+
 const More = () => {
 
     const move = (e)=>{
@@ -345,7 +353,7 @@ const More = () => {
                                 <i class="opacity-0 ri-links-line"></i>
                             </button>
                             <div className='box0 opacity-0 scale-0 w-[700px] h-[400px] absolute top-[210px] rounded-xl overflow-hidden'> 
-                                <img className='w-full h-full object-cover object-center' src="src/assets/Project-images/CareTrack.png" alt="" />
+                                <img className='w-full h-full object-cover object-center' src={image7} alt="" />
                             </div>
                         </div>
                         <div className='w-full h-[1px] bg-white'></div>
@@ -361,7 +369,7 @@ const More = () => {
                                 <i class="opacity-0 ri-links-line"></i>
                             </button>                           
                             <div className='box1 opacity-0 scale-0 w-[700px] h-[400px] absolute top-[295px] rounded-xl overflow-hidden'> 
-                                <img className='w-full h-full object-cover object-center' src="src/assets/Project-images/ThirtysixstudioSS.png" alt="" />
+                                <img className='w-full h-full object-cover object-center' src={image6} alt="" />
                             </div>
                         </div>
                         <div className='w-full h-[1px] bg-white'></div>
@@ -377,7 +385,7 @@ const More = () => {
                                 <i class="opacity-0 ri-links-line"></i>
                             </button>                            
                             <div className='box2 opacity-0 scale-0 w-[700px] h-[400px]  absolute top-[395px] rounded-xl overflow-hidden'> 
-                                <img className='w-full h-full object-cover object-center' src="src/assets/Project-images/OchiSS.png" alt="" />
+                                <img className='w-full h-full object-cover object-center' src={image4} alt="" />
                             </div>
                         </div>
                         <div className='w-full h-[1px] bg-white'></div>
@@ -393,7 +401,7 @@ const More = () => {
                                 <i class="opacity-0 ri-links-line"></i>
                             </button>
                             <div className='box3 opacity-0 scale-0 w-[700px] h-[400px] absolute bottom-[480px] rounded-xl overflow-hidden'> 
-                                <img className='w-full h-full object-cover object-center' src="src/assets/Project-images/DUO-SS.png" alt="" />
+                                <img className='w-full h-full object-cover object-center' src={image1} alt="" />
                             </div>
                         </div>
                         <div className='w-full h-[1px] bg-white'></div>
@@ -409,7 +417,7 @@ const More = () => {
                                 <i class="opacity-0 ri-links-line"></i>
                             </button>
                             <div className='box4 opacity-0 scale-0 w-[700px] h-[400px] absolute bottom-[390px] rounded-xl overflow-hidden'> 
-                                <img className='w-full h-full object-cover object-center' src="src/assets/Project-images/AnzoportSS.png" alt="" />
+                                <img className='w-full h-full object-cover object-center' src={image3} alt="" />
                             </div>
                         </div>
                         <div className='w-full h-[1px] bg-white'></div>
@@ -425,7 +433,7 @@ const More = () => {
                                 <i class="opacity-0 ri-links-line"></i>
                             </button>
                             <div className='box5 opacity-0 scale-0 w-[700px] h-[400px] absolute bottom-[305px] rounded-xl overflow-hidden'> 
-                                <img className='w-full h-full object-cover object-center' src="src/assets/Project-images/TwogoodSS.png" alt="" />
+                                <img className='w-full h-full object-cover object-center' src={image2} alt="" />
                             </div>
                         </div>
                         <div className='w-full h-[1px] bg-white'></div>
@@ -441,7 +449,7 @@ const More = () => {
                                 <i class="opacity-0 ri-links-line"></i>
                             </button>
                             <div className='box6 opacity-0 scale-0 w-[700px] h-[400px] absolute bottom-[230px] rounded-xl overflow-hidden'> 
-                                <img className='w-full h-full object-cover object-center' src="src/assets/Project-images/supreme.png" alt="" />
+                                <img className='w-full h-full object-cover object-center' src={image5} alt="" />
                             </div>
                         </div>
                         {/* <div className='w-full h-[1px] bg-white'></div> */}
