@@ -43,28 +43,28 @@ const About = () => {
         <div id='aboutPage' className='page1 w-full relative bg-black font-sans'>
             <div className='w-full lg:h-screen min-h-screen relative flex max-sm:flex-col overflow-hidden'>
                 {/* Left Side */}
-                <div className='w-1/2 max-sm:w-full h-full relative flex flex-col leading-[250px] px-10 max-sm:px-5'>
-                    <div className='w-full h-2/3 max-sm:h-[600px] bg-red-900 overflow-hidden'>
+                <div className='w-1/2 max-sm:w-full h-full relative flex flex-col leading-[250px] px-5 max-sm:px-5'>
+                    <div className='w-full h-3/4 max-sm:h-[600px] bg-red-900 overflow-hidden'>
                         <img className='w-full h-screen object-cover object-bottom grayscale hover:grayscale-0' src={profile} alt="" />
                     </div>
-                    <div className=' w-[700px] overflow-hidden relative flex font-[oswald] uppercase font-semibold text-[15vw] max-sm:text-8xl tracking-tight'>
+                    <div className='-mt-7 w-[700px] overflow-hidden relative flex font-[oswald] uppercase font-semibold text-[15vw] max-sm:text-8xl tracking-tight'>
                         {["s","a","c","h","i","n"].map((e)=>{
                             return <h1 className='text'>{e}</h1>
                         })}
                     </div>
-                    <div className='absolute h-[100px] right-3 bottom-36 max-sm:bottom-5 max-sm:right-0 flex items-center rotate-90'>
+                    <div className='absolute scale-90 h-[100px] right-0 bottom-20 max-sm:bottom-5 max-sm:right-0 flex items-center rotate-90'>
                         <h4 className='bg-white text-black text-2xl font-bold font-[oswald] px-2'>#1</h4>
                         <div className='uppercase ml-3 leading-[10px]'>
                             <h4 className='text-sm'>Episode-1</h4>
-                            <h2 className='text-xl font-[lora] font-semibold'>Shadow</h2>
+                            <h2 className='text-lg font-[lora] font-semibold'>Shadow</h2>
                         </div>
                     </div>
                 </div>
                 {/* Right Side */}
-                <div className='w-1/2 max-sm:w-full relative max-sm:mt-16 h-full p-10 max-sm:p-0'>
+                <div className='w-1/2 max-sm:w-full relative max-sm:mt-16 h-full py-10 pl-10 max-sm:p-0'>
                     <div className='w-full h-full relative flex max-sm:flex-col'>
                         {/* Desktop */}
-                        <div className='w-3/4 h-full mt-12 text-[20px] font-[opensans] px-5 font-medium max-sm:hidden'>
+                        <div className='w-3/4 h-full mt-12 text-[16px] font-[opensans] px-5 font-medium max-sm:hidden'>
                             <div className='w-full overflow-hidden'>
                                 <p className='hello3'>Hello! I'm a passionate Front-End Developer from India,</p>
                             </div>
@@ -186,8 +186,8 @@ const About = () => {
                             
                              
                         </div>
-                        <h1 className='front w-fit h-fit text-8xl max-sm:text-6xl font-[oswald] rotate-90 absolute -right-10 max-sm:-right-20 max-sm:top-20 top-48 uppercase'>frontend</h1>
-                        <div className='absolute bottom-0 left-7 max-sm:scale-75 max-sm:mr-40 max-sm:relative'>
+                        <h1 className='front w-fit h-fit text-[80px] max-sm:text-6xl font-[oswald] rotate-90 absolute -right-3 max-sm:-right-20 max-sm:top-20 top-36 uppercase'>frontend</h1>
+                        <div className='absolute left-5 -bottom-10 max-sm:scale-75 max-sm:mr-40 max-sm:relative'>
                             <a href="#contactPage"><Btn2 text="contact me" title="Yes this is a button!"/></a>
                         </div>
                     </div>

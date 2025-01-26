@@ -332,9 +332,9 @@ const More = () => {
                 </div>
             </div> */}
             <div className='w-full relative px-20 rounded-2xl max-sm:hidden'>
-                <div className='backdrop-blur-xl bg-black/60 w-full rounded-3xl pt-10 pb-32 hover:cursor-pointer font-sans'>
+                <div className='backdrop-blur-xl bg-black/60 w-full rounded-3xl py-10 hover:cursor-pointer font-sans'>
                     <div>
-                        <div className='flex items-center justify-between text-4xl font-[oswald] py-5'>
+                        <div className='flex items-center justify-between text-3xl font-[oswald] py-5'>
                             <h1 className='w-[100px] mr-[100px] text-transparent'>year</h1>
                             <h1 className='w-[300px] mr-[100px]'>project</h1>
                             <h1 className='w-[400px] mr-[100px]'>Technology</h1>
@@ -344,15 +344,15 @@ const More = () => {
                     </div>
 
                     <div onMouseEnter={box0} onMouseLeave={boxleave0} onMouseMove={move} className='parent0 w-full'>
-                        <div className='w-full flex items-center justify-between text-xl font-medium py-5'>
+                        <div className='w-full flex items-center justify-between text-lg font-medium py-3'>
                             <h1 className='w-[100px] mr-[100px]'>2024</h1>
-                            <h1 className='w-[300px] text-2xl font-semibold mr-[100px] '>CareTrack - FullStack</h1>
-                            <h1 className='w-[400px] text-xl mr-[100px]'>Reactjs, Nextjs, TailwindCSS, Backend</h1>
-                            <button className='border-4 font-semibold rounded-full px-7 py-2 mr-[100px] flex items-center gap-1'>
+                            <h1 className='w-[300px] text-xl font-semibold mr-[100px] '>CareTrack - FullStack</h1>
+                            <h1 className='w-[400px] text-lg mr-[100px]'>Reactjs, Nextjs, TailwindCSS, Backend</h1>
+                            <button className='border-2 font-semibold rounded-full px-7 py-2 mr-[100px] flex items-center gap-1'>
                                 <a href="https://github.com/frazaq/Internship_Techplement.git">Link</a>
                                 <i class="opacity-0 ri-links-line"></i>
                             </button>
-                            <div className='box0 opacity-0 scale-0 w-[700px] h-[400px] absolute top-[210px] rounded-xl overflow-hidden'> 
+                            <div className='box0 scale-0 opacity-0 w-[550px] h-[300px] absolute top-[185px] rounded-xl overflow-hidden'> 
                                 <img className='w-full h-full object-cover object-center' src={image7} alt="" />
                             </div>
                         </div>
@@ -360,15 +360,15 @@ const More = () => {
                     </div>
 
                     <div onMouseEnter={box1} onMouseLeave={boxleave1} onMouseMove={move} className='parent1 w-full'>
-                        <div className='w-full flex items-center justify-between text-xl font-medium font-sans py-5'>
+                        <div className='w-full flex items-center justify-between text-lg font-medium font-sans py-3'>
                             <h1 className='w-[100px] mr-[100px]'>2024</h1>
-                            <h1 className='w-[300px] text-2xl font-semibold mr-[100px]'>Thirtysixstudio</h1>
+                            <h1 className='w-[300px] text-xl font-semibold mr-[100px]'>Thirtysixstudio</h1>
                             <h1 className='w-[400px] mr-[100px]'>Reactjs, Tailwind css, Canvas, JavaScript</h1>
-                            <button className='border-4 font-semibold rounded-full px-7 py-2 mr-[100px] flex items-center gap-2'>
+                            <button className='border-2 font-semibold rounded-full px-7 py-2 mr-[100px] flex items-center gap-2'>
                                 <a href="https://github.com/SachinReddu-dot">Link</a>
                                 <i class="opacity-0 ri-links-line"></i>
                             </button>                           
-                            <div className='box1 opacity-0 scale-0 w-[700px] h-[400px] absolute top-[295px] rounded-xl overflow-hidden'> 
+                            <div className='box1 opacity-0 scale-0 w-[550px] h-[300px] rounded-xl absolute top-[260px] overflow-hidden'> 
                                 <img className='w-full h-full object-cover object-center' src={image6} alt="" />
                             </div>
                         </div>
@@ -376,15 +376,15 @@ const More = () => {
                     </div>
 
                     <div onMouseEnter={box2} onMouseLeave={boxleave2} onMouseMove={move} className='parent2 w-full'>
-                        <div className='w-full flex items-center justify-between text-xl font-medium py-5'>
+                        <div className='w-full flex items-center justify-between text-lg font-medium py-3'>
                             <h1 className='w-[100px] mr-[100px]'>2024</h1>
-                            <h1 className='w-[300px] text-2xl font-semibold mr-[100px]'>OCHI</h1>
+                            <h1 className='w-[300px] text-xl font-semibold mr-[100px]'>OCHI</h1>
                             <h1 className='w-[400px] mr-[100px]'>Reactjs, Tailwind css, FramerMotion, Locomotive</h1>
-                            <button className='border-4 rounded-full px-7 py-2 mr-[100px] flex items-center gap-2'>
+                            <button className='border-2 rounded-full px-7 py-2 mr-[100px] flex items-center gap-2'>
                                 <a href="https://github.com/SachinReddu-dot/ochi.git">Link</a>
                                 <i class="opacity-0 ri-links-line"></i>
                             </button>                            
-                            <div className='box2 opacity-0 scale-0 w-[700px] h-[400px]  absolute top-[395px] rounded-xl overflow-hidden'> 
+                            <div className='box2 opacity-0 scale-0 w-[550px] h-[300px] absolute top-[340px] rounded-xl overflow-hidden'> 
                                 <img className='w-full h-full object-cover object-center' src={image4} alt="" />
                             </div>
                         </div>
@@ -392,15 +392,15 @@ const More = () => {
                     </div>
                     
                     <div onMouseEnter={box3} onMouseLeave={boxleave3} onMouseMove={move} className='parent3 w-full'>
-                        <div className='w-full flex items-center justify-between text-xl font-medium py-5'>
+                        <div className='w-full flex items-center justify-between text-lg font-medium py-3'>
                             <h1 className='w-[100px] mr-[100px]'>2024</h1>
-                            <h1 className='w-[300px] text-2xl font-semibold mr-[100px]'>DUO</h1>
+                            <h1 className='w-[300px] text-xl font-semibold mr-[100px]'>DUO</h1>
                             <h1 className='w-[400px] mr-[100px]'>Reactjs, TailwindCSS, JavaScript, ScrollTrigger</h1>
-                            <button className='border-4 rounded-full px-7 py-2 mr-[100px] flex items-center gap-2'>
+                            <button className='border-2 rounded-full px-7 py-2 mr-[100px] flex items-center gap-2'>
                                 <a href="https://github.com/SachinReddu-dot">Link</a>
                                 <i class="opacity-0 ri-links-line"></i>
                             </button>
-                            <div className='box3 opacity-0 scale-0 w-[700px] h-[400px] absolute bottom-[480px] rounded-xl overflow-hidden'> 
+                            <div className='box3 opacity-0 scale-0 w-[550px] h-[300px] absolute bottom-[335px] rounded-xl overflow-hidden'> 
                                 <img className='w-full h-full object-cover object-center' src={image1} alt="" />
                             </div>
                         </div>
@@ -408,15 +408,15 @@ const More = () => {
                     </div>
 
                     <div onMouseEnter={box4} onMouseLeave={boxleave4} onMouseMove={move} className='parent4 w-full'>
-                        <div className='w-full flex items-center justify-between text-xl font-medium py-5'>
+                        <div className='w-full flex items-center justify-between text-xl font-medium py-3'>
                             <h1 className='w-[100px] mr-[100px]'>2024</h1>
-                            <h1 className='w-[300px] text-2xl font-semibold mr-[100px]'>Anzo Portfolio</h1>
+                            <h1 className='w-[300px] text-xl font-semibold mr-[100px]'>Anzo Portfolio</h1>
                             <h1 className='w-[400px] mr-[100px]'>HTML, CSS, JavaScript, Canvas, GSAP</h1>
-                            <button className='border-4 rounded-full px-7 py-2 mr-[100px] flex items-center gap-2'>
+                            <button className='border-2 rounded-full px-7 py-2 mr-[100px] flex items-center gap-2'>
                                 <a href="https://github.com/SachinReddu-dot">Link</a>
                                 <i class="opacity-0 ri-links-line"></i>
                             </button>
-                            <div className='box4 opacity-0 scale-0 w-[700px] h-[400px] absolute bottom-[390px] rounded-xl overflow-hidden'> 
+                            <div className='box4 opacity-0 scale-0 w-[550px] h-[300px] absolute bottom-[260px] rounded-xl overflow-hidden'> 
                                 <img className='w-full h-full object-cover object-center' src={image3} alt="" />
                             </div>
                         </div>
@@ -424,15 +424,15 @@ const More = () => {
                     </div>
 
                     <div onMouseEnter={box5} onMouseLeave={boxleave5} onMouseMove={move} className='parent5 w-full'>
-                        <div className='w-full flex items-center justify-between text-xl font-medium py-5'>
+                        <div className='w-full flex items-center justify-between text-lg font-medium py-3'>
                             <h1 className='w-[100px] mr-[100px]'>2024</h1>
-                            <h1 className='w-[300px] text-2xl font-semibold mr-[100px]'>Two Good Co.</h1>
+                            <h1 className='w-[300px] text-xl font-semibold mr-[100px]'>Two Good Co.</h1>
                             <h1 className='w-[400px] mr-[100px]'>HTML ,CSS ,JavaScript, GSAP</h1>
-                            <button className='border-4 rounded-full px-7 py-2 mr-[100px] flex items-center gap-2'>
+                            <button className='border-2 rounded-full px-7 py-2 mr-[100px] flex items-center gap-2'>
                                 <a href="https://github.com/SachinReddu-dot">Link</a>
                                 <i class="opacity-0 ri-links-line"></i>
                             </button>
-                            <div className='box5 opacity-0 scale-0 w-[700px] h-[400px] absolute bottom-[305px] rounded-xl overflow-hidden'> 
+                            <div className='box5 opacity-0 scale-0 w-[550px] h-[300px] absolute bottom-[180px] rounded-xl overflow-hidden'> 
                                 <img className='w-full h-full object-cover object-center' src={image2} alt="" />
                             </div>
                         </div>
@@ -440,15 +440,15 @@ const More = () => {
                     </div>
 
                     <div onMouseEnter={box6} onMouseLeave={boxleave6} onMouseMove={move} className='parent6 w-full'>
-                        <div className='w-full flex items-center justify-between text-xl font-medium py-5'>
+                        <div className='w-full flex items-center justify-between text-lg font-medium py-3'>
                             <h1 className='w-[100px] mr-[100px]'>2024</h1>
-                            <h1 className='w-[300px] text-2xl font-semibold mr-[100px]'>SUPREME</h1>
+                            <h1 className='w-[300px] text-xl font-semibold mr-[100px]'>SUPREME</h1>
                             <h1 className='w-[400px] mr-[100px]'>HTML ,CSS ,JavaScript</h1>
-                            <button className='border-4 rounded-full px-7 py-2 mr-[100px] flex items-center gap-2'>
+                            <button className='border-2 rounded-full px-7 py-2 mr-[100px] flex items-center gap-2'>
                                 <a href="https://github.com/SachinReddu-dot/Projects.git">Link</a>
                                 <i class="opacity-0 ri-links-line"></i>
                             </button>
-                            <div className='box6 opacity-0 scale-0 w-[700px] h-[400px] absolute bottom-[230px] rounded-xl overflow-hidden'> 
+                            <div className='box6 opacity-0 scale-0 w-[550px] h-[300px] absolute bottom-[110px] rounded-xl overflow-hidden'> 
                                 <img className='w-full h-full object-cover object-center' src={image5} alt="" />
                             </div>
                         </div>

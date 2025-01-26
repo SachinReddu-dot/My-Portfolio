@@ -51,12 +51,12 @@ const Btn2 = (props) => {
             </div> */}
 
             <div className='flex flex-col-reverse items-center font-[oswald] mt-5'>
-                <h1 className='text-2xl text-center font-medium w-full mt-2 tracking-wide'>{props.title}</h1>
-                <div onMouseEnter={contact} onMouseLeave={contact2} className='overflow-hidden border-white border-[2px] w-[350px] h-16 py-5 rounded-full flex flex-nowrap relative hover:cursor-pointer'>
-                    <div className='box1 uppercase opacity-0 w-full h-full flex items-center justify-center text-6xl font-bold shrink-0'>
+                <h1 className='text-lg text-center font-medium w-full mt-2 tracking-wide'>{props.title}</h1>
+                <div onMouseEnter={contact} onMouseLeave={contact2} className='overflow-hidden border-white border-[1px] w-[300px] h-14 py-5 rounded-full flex flex-nowrap relative hover:cursor-pointer'>
+                    <div className='box1 uppercase opacity-0 w-full h-full flex items-center justify-center text-5xl font-bold shrink-0'>
                         <h1>{props.text}</h1>
                     </div>
-                    <div className='box2 w-full uppercase h-full flex text-6xl font-bold items-center justify-center'>
+                    <div className='box2 w-full uppercase h-full flex text-5xl font-bold items-center justify-center'>
                         <h1 className='btn2 px-5 shrink-0'>{props.text}</h1>
                         <h1 className='btn2 px-5 shrink-0'>{props.text}</h1>
                         <h1 className='btn2 px-5 shrink-0'>{props.text}</h1>

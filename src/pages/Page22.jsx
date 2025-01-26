@@ -40,26 +40,26 @@ const Page22 = () => {
 
             <div className='w-full h-screen relative'>
                 <div className='absolute left-40 max-sm:left-10'>
-                    <div className=' h-[650px] max-sm:h-[370px] w-[400px] max-sm:w-[200px] bg-red-900 rounded-md overflow-hidden'>
+                    <div className='h-[500px] max-sm:h-[370px] w-[300px] max-sm:w-[200px] bg-red-900 rounded-md overflow-hidden'>
                         <img className='w-full h-full object-cover object-left' src={image1} alt="" />
                     </div>
-                    <h1 className='text-4xl max-sm:text-2xl font-[opensans] mix-blend-difference mt-3'>Thirtysixstudio</h1>
+                    <h1 className='text-3xl max-sm:text-2xl font-[opensans] mix-blend-difference mt-3'>Thirtysixstudio</h1>
                 </div> 
             </div>
             <div className='w-full h-screen relative'>
-                <div className='absolute right-10 -top-60'>
-                    <div className='h-[650px] max-sm:h-[370px] w-[400px] max-sm:w-[200px] bg-red-900 rounded-md overflow-hidden'>
+                <div className='absolute right-24 -top-60'>
+                    <div className='h-[500px] max-sm:h-[370px] w-[300px] max-sm:w-[200px] bg-red-900 rounded-md overflow-hidden'>
                         <img className='w-full h-full object-cover object-left' src={image2} alt="" />
                     </div>
-                    <h1 className='text-4xl max-sm:text-2xl mt-3 font-[opensans] mix-blend-difference'>Ochi</h1>
+                    <h1 className='text-3xl max-sm:text-2xl mt-3 font-[opensans] mix-blend-difference'>Ochi</h1>
                 </div>
             </div>
             <div className='w-full h-screen relative'>
                 <div className='absolute -top-60 max-sm:-top-[500px] left-[27%] max-sm:left-20'>
-                    <div className='h-[650px] max-sm:h-[370px] w-[400px] max-sm:w-[200px] overflow-hidden bg-red-900 rounded-md'>
+                    <div className='h-[500px] max-sm:h-[370px] w-[300px] max-sm:w-[200px] overflow-hidden bg-red-900 rounded-md'>
                         <img className='w-full h-full object-cover object-left' src={image3} alt="" />
                     </div>
-                    <h1 className='text-4xl max-sm:text-2xl mt-3 font-[opensans] mix-blend-difference'>DUO</h1>
+                    <h1 className='text-3xl max-sm:text-2xl mt-3 font-[opensans] mix-blend-difference'>DUO</h1>
                 </div>
             </div>
 
