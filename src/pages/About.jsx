@@ -11,32 +11,32 @@ const About = () => {
 
     gsap.registerPlugin(ScrollTrigger)
 
-    useGSAP(()=>{
-        const tl = gsap.timeline({
-            scrollTrigger:{
-                trigger: ".page1",
-                // markers: true,
-                start: "top 10%",
-                end: "top 0"
-            }
-        })
-        tl
-        .from(".text",{
-            transform: "translateY(100%)",
-            duration:1,
-            ease: "power3",
-            stagger:.1
-        })
-        .from(".front",{
-            transform: "translateX(100%)",
-            duration:.8,
-            ease:"power3"
-        })
-        .from(".hello3",{
-            transform: "translateY(100%)",
-            duration: .8,
-        })     
-    })
+    // useGSAP(()=>{
+    //     const tl = gsap.timeline({
+    //         scrollTrigger:{
+    //             trigger: ".page1",
+    //             // markers: true,
+    //             start: "top 10%",
+    //             end: "top 0"
+    //         }
+    //     })
+    //     tl
+    //     .from(".text",{
+    //         transform: "translateY(100%)",
+    //         duration:1,
+    //         ease: "power3",
+    //         stagger:.1
+    //     })
+    //     .from(".front",{
+    //         transform: "translateX(100%)",
+    //         duration:.8,
+    //         ease:"power3"
+    //     })
+    //     .from(".hello3",{
+    //         transform: "translateY(100%)",
+    //         duration: .8,
+    //     })     
+    // })
 
   return (
     <>
@@ -124,7 +124,7 @@ const About = () => {
                             </p> */}
                         </div>
                         {/* Mobile */}
-                        <div className='pl-4 text-[17px] w-[85%] font-sans md:hidden'>
+                        <div className='pl-4 text-[3.9vw] w-[85%] font-sans md:hidden'>
                             <div className='w-full overflow-hidden'>
                                 <p className='hello3'>Hello! I'm a passionate Front-End Developer</p>
                             </div>
@@ -187,8 +187,9 @@ const About = () => {
                              
                         </div>
                         <h1 className='front w-fit h-fit text-[80px] max-sm:text-6xl font-[oswald] rotate-90 absolute -right-3 max-sm:-right-20 max-sm:top-20 top-36 uppercase'>frontend</h1>
-                        <div className='absolute left-5 -bottom-10 max-sm:scale-75 max-sm:mr-40 max-sm:relative'>
+                        <div className='absolute left-5 -bottom-10 max-sm:bottom-0 max-sm:left-3 max-sm:scale-75 max-sm:mr-40 max-sm:relative'>
                             <a href="#contactPage"><Btn2 text="contact me" title="Yes this is a button!"/></a>
+                            {/* <div></div> */}
                         </div>
                     </div>
                 </div>

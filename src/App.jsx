@@ -9,17 +9,17 @@ const About = React.lazy(() => import("./pages/About"));
 const ContactPage2 = React.lazy(() => import('./pages/ContactPage2'));
 const Scroll2 = React.lazy(() => import("./Components/Scroll2"));
 const Page22 = React.lazy(() => import("./pages/Page22"));
+const Footer = React.lazy(() => import("./Components/Footer"));
+
 
 
 const App = () => {
 
   useEffect(()=>{
-    // Initialize Lenis
     const lenis = new Lenis({
       // infinite: true,
     });
 
-    // Use requestAnimationFrame to continuously update the scroll
     function raf(time) {
       lenis.raf(time);
       requestAnimationFrame(raf);
@@ -27,9 +27,9 @@ const App = () => {
 
     requestAnimationFrame(raf);
 
-    // document.addEventListener("contextmenu",function(e){
-    //   e.preventDefault();
-    // },false)
+    document.addEventListener("contextmenu",function(e){
+      e.preventDefault();
+    },false)
   })
 
   const cursor = (dets) => {
@@ -54,6 +54,7 @@ const App = () => {
               <Line/>
               <Scroll2/>            
               <ContactPage2/>
+              <Footer/>
           </Suspense>
       </div>
     </>

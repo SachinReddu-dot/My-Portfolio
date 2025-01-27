@@ -10,6 +10,7 @@ import image4 from '../assets/Project-images/OchiSS.png'
 import image5 from '../assets/Project-images/supreme.png'
 import image6 from '../assets/Project-images/ThirtysixstudioSS.png'
 import image7 from '../assets/Project-images/CareTrack.png'
+import Footer from '../Components/Footer'
 
 
 const ContactPage2 = () => {
@@ -40,6 +41,12 @@ const ContactPage2 = () => {
       };
 
     useGSAP(()=>{
+        gsap.from(".blink",{
+            opacity: 0,
+            repeat:-1,
+            duration:.8,
+            ease: "power3.inOut"
+        })
         const tl = gsap.timeline({
             repeat:-1,
             ease: "power2",
@@ -143,7 +150,7 @@ const ContactPage2 = () => {
                         <a href='https://github.com/SachinReddu-dot'><div onMouseEnter={icon} onMouseLeave={iconleave} className='icon1 h-12 w-12 bg-gray-400 text-gray-600 rounded-md text-3xl flex items-center justify-center'>
                             <i class="ri-github-fill"></i>
                         </div></a>
-                        <a href="https://www.linkedin.com/"><div onMouseEnter={icon2} onMouseLeave={iconleave2} className='icon2 h-12 w-12 bg-gray-400 text-gray-600 rounded-md text-3xl flex items-center justify-center'>
+                        <a href="https://linkedin.com/in/sachin-reddu-b324422aa"><div onMouseEnter={icon2} onMouseLeave={iconleave2} className='icon2 h-12 w-12 bg-gray-400 text-gray-600 rounded-md text-3xl flex items-center justify-center'>
                             <i class="ri-linkedin-fill"></i>
                         </div></a>
                         <a href='https://x.com/?mx=2'><div onMouseEnter={icon3} onMouseLeave={iconleave3} className='icon3 h-12 w-12 bg-gray-400 text-gray-600 rounded-md text-3xl flex items-center justify-center'>
@@ -154,8 +161,14 @@ const ContactPage2 = () => {
                 <div className='w-2/3 max-sm:w-full max-sm:mt-5 bg-black max-sm:bg-[rgb(1,32,105)] rounded-tr-xl rounded-br-xl p-10 max-sm:px-3 max-sm:pt-28'>
                     <div className='h-full w-full '>
                         <div className='w-full font-sans max-sm:pl-2'>
-                            <h1 className='text-3xl font-[oswald] font-semibold uppercase'>Let's Talk</h1>
-                            <p className='text-lg font-medium max-sm:text-lg mt-1 font-sans'>Whether you're looking for creative input or just want to chat, I'm here for it!</p>
+                            <div className='w-full flex items-center justify-between'>
+                                <h1 className='text-3xl font-[oswald] font-semibold uppercase'>Let's Talk</h1>
+                                <div className='flex items-center justify-center gap-2'>
+                                    <div className='blink bg-green-700 h-4 w-4 rounded-full'></div>
+                                    <h3 className='mr-10 max-sm:mr-0 max-sm:text-xl text-lg font-medium font-[oswald]'>Availabe for new project</h3>
+                                </div>
+                            </div>
+                            <p className='text-lg font-medium max-sm:text-lg mt-1 max-sm:mt-2 font-sans'>Whether you're looking for creative input or just want to chat, I'm here for it!</p>
                         </div>
                         <div className='w-full my-5 max-sm:my-10 flex max-sm:flex-col items-center gap-10 max-sm:gap-5 max-sm:pl-2'>
                             <div className='w-full'>
@@ -191,7 +204,6 @@ const ContactPage2 = () => {
                     </div>
                 </div>
             </div>
-            <h1 className='text-lg opacity-10 font-sans font-semibold absolute w-full bottom-0 left-0 flex items-center justify-center'>||जय श्री राम||</h1>
         </div>
     </>
   )
