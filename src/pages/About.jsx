@@ -11,32 +11,32 @@ const About = () => {
 
     gsap.registerPlugin(ScrollTrigger)
 
-    // useGSAP(()=>{
-    //     const tl = gsap.timeline({
-    //         scrollTrigger:{
-    //             trigger: ".page1",
-    //             // markers: true,
-    //             start: "top 10%",
-    //             end: "top 0"
-    //         }
-    //     })
-    //     tl
-    //     .from(".text",{
-    //         transform: "translateY(100%)",
-    //         duration:1,
-    //         ease: "power3",
-    //         stagger:.1
-    //     })
-    //     .from(".front",{
-    //         transform: "translateX(100%)",
-    //         duration:.8,
-    //         ease:"power3"
-    //     })
-    //     .from(".hello3",{
-    //         transform: "translateY(100%)",
-    //         duration: .8,
-    //     })     
-    // })
+    useGSAP(()=>{
+        const tl = gsap.timeline({
+            scrollTrigger:{
+                trigger: ".page1",
+                // markers: true,
+                start: "top 10%",
+                end: "top 0"
+            }
+        })
+        tl
+        .from(".text",{
+            transform: "translateY(100%)",
+            duration:1,
+            ease: "power3",
+            stagger:.1
+        })
+        .from(".front",{
+            transform: "translateX(100%)",
+            duration:.8,
+            ease:"power3"
+        })
+        .from(".hello3",{
+            transform: "translateY(100%)",
+            duration: .8,
+        })     
+    })
 
   return (
     <>
