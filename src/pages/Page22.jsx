@@ -47,7 +47,7 @@ const Page22 = () => {
                 </div> 
             </div>
             <div className='w-full h-screen relative'>
-                <div className='absolute right-24 -top-60'>
+                <div className='absolute right-24 max-sm:right-5 -top-60'>
                     <div className='h-[500px] max-sm:h-[370px] w-[300px] max-sm:w-[200px] bg-red-900 rounded-md overflow-hidden'>
                         <img className='w-full h-full object-cover object-left' src={image2} alt="" />
                     </div>
