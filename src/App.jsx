@@ -43,7 +43,7 @@ const App = () => {
 
   return (
     <>        
-      <div className='cursor max-sm:hidden w-7 h-7 bg-white z-[99] fixed rounded-full mix-blend-difference'></div>
+      <div className='cursor  max-sm:hidden w-7 h-7 bg-white z-[99] fixed rounded-full mix-blend-difference'></div>
       <div onMouseMove={cursor} onContextMenu="return false" className='relative z-50 w-full overflow-x-hidden'>
           <Suspense>
               <Navbar/>

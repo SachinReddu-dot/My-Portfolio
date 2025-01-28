@@ -10,7 +10,7 @@ import image4 from '../assets/Project-images/OchiSS.png'
 import image5 from '../assets/Project-images/supreme.png'
 import image6 from '../assets/Project-images/ThirtysixstudioSS.png'
 import image7 from '../assets/Project-images/CareTrack.png'
-import Footer from '../Components/Footer'
+import Btn1 from '../Components/Btn1'
 
 
 const ContactPage2 = () => {
@@ -198,7 +198,8 @@ const ContactPage2 = () => {
                                 </div>
                                 <textarea className='w-full rounded-md outline-none resize-none font-medium h-[150px] mt-5 p-3 bg-transparent border-gray-500 border-[2px]' placeholder='Enter your Message' name="Message"></textarea>
                                 <span className='w-full text-xl font-semibold mt-3'>{Result}</span>
-                                <button className='text-white w-full rounded-md bg-blue-700 text-xl font-semibold py-4 mt-3'>Send</button>   
+                                {/* <button className='text-white w-full rounded-md bg-blue-700 text-xl font-semibold py-4 mt-3'>Send</button>    */}
+                                <Btn1/>
                             </form>
                         </div>
                     </div>

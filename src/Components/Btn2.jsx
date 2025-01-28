@@ -60,6 +60,7 @@ const Btn2 = (props) => {
                         <h1 className='btn2 px-5 shrink-0'>{props.text}</h1>
                         <h1 className='btn2 px-5 shrink-0'>{props.text}</h1>
                         <h1 className='btn2 px-5 shrink-0'>{props.text}</h1>
+                        <h1 className='btn2 px-5 shrink-0'>{props.text}</h1>
                     </div>
                 </div>
             </div>
