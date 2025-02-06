@@ -47,59 +47,115 @@ const Navbar = () => {
     
   return (
     <>
-        <div className='w-full relative font-sans'>
-                <div onChange={toggleMenu} className='fixed text-sm right-16 max-sm:right-5 top-7 z-[998]'>
-                    <label onClick={menu ? upar : niche} class="hamburger">
-                    <input type="checkbox"/>
-                    <svg viewBox="0 0 32 32">
-                        <path class="line2 line-top-bottom" d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"></path>
-                        <path class="line2" d="M7 16 27 16"></path>
-                    </svg>
-                    </label>
+        <div className='w-fullrelative font-sans'>
+                {/* <div className='bg-black h-32 w-16 fixed z-[995] right-12 top-5 rounded-full'>
+                    <div onChange={toggleMenu} className='fixed text-sm right-16 max-sm:right-5 top-7 z-[998]'>
+                        <label onClick={menu ? upar : niche} class="hamburger">
+                        <input type="checkbox"/>
+                        <svg viewBox="0 0 32 32">
+                            <path class="line2 line-top-bottom" d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"></path>
+                            <path class="line2" d="M7 16 27 16"></path>
+                        </svg>
+                        </label>
+                    </div>
+                    <a href={CV} download="SachinResumeDownloaded.pdf" class="fixed z-[995] right-16 max-sm:right-4 top-[75px] flex items-center justify-center">
+                        <button class="download-button">
+                        <div class="docs">
+                            <svg
+                            viewBox="0 0 24 24"
+                            width="20"
+                            height="20"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            fill="none"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="css-i6dzq1"
+                            >
+                            <path
+                                d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"
+                            ></path>
+                            <polyline points="14 2 14 8 20 8"></polyline>
+                            <line x1="16" y1="13" x2="8" y2="13"></line>
+                            <line x1="16" y1="17" x2="8" y2="17"></line>
+                            <polyline points="10 9 9 9 8 9"></polyline>
+                            </svg>
+                            
+                        </div>
+                        <div class="download">
+                            <svg
+                            viewBox="0 0 24 24"
+                            width="24"
+                            height="24"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            fill="none"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="css-i6dzq1"
+                            >
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                            <polyline points="7 10 12 15 17 10"></polyline>
+                            <line x1="12" y1="15" x2="12" y2="3"></line>
+                            </svg>
+                        </div>
+                        </button>
+                    </a>
+                </div> */}
+                <div className='bg-black h-32 w-12 gap-3 px-2 max-sm:right-4 fixed flex flex-col items-center justify-center z-[998] right-12 top-5 rounded-full'>
+                    <div onChange={toggleMenu} className='text-sm'>
+                        <label onClick={menu ? upar : niche} class="hamburger">
+                        <input type="checkbox"/>
+                        <svg viewBox="0 0 32 32">
+                            <path class="line2 line-top-bottom" d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"></path>
+                            <path class="line2" d="M7 16 27 16"></path>
+                        </svg>
+                        </label>
+                    </div>
+                    <a href={CV} download="SachinResumeDownloaded.pdf" class="flex items-center justify-center">
+                        <button class="download-button">
+                        <div class="docs">
+                            <svg
+                            viewBox="0 0 24 24"
+                            width="20"
+                            height="20"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            fill="none"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="css-i6dzq1"
+                            >
+                            <path
+                                d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"
+                            ></path>
+                            <polyline points="14 2 14 8 20 8"></polyline>
+                            <line x1="16" y1="13" x2="8" y2="13"></line>
+                            <line x1="16" y1="17" x2="8" y2="17"></line>
+                            <polyline points="10 9 9 9 8 9"></polyline>
+                            </svg>
+                            
+                        </div>
+                        <div class="download">
+                            <svg
+                            viewBox="0 0 24 24"
+                            width="24"
+                            height="24"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            fill="none"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="css-i6dzq1"
+                            >
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                            <polyline points="7 10 12 15 17 10"></polyline>
+                            <line x1="12" y1="15" x2="12" y2="3"></line>
+                            </svg>
+                        </div>
+                        </button>
+                    </a>
                 </div>
-            <a href={CV} download="SachinResumeDownloaded.pdf" class="fixed z-[995] right-16 max-sm:right-4 top-[75px] flex items-center justify-center">
-                <button class="download-button">
-                <div class="docs">
-                    <svg
-                    viewBox="0 0 24 24"
-                    width="20"
-                    height="20"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    fill="none"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="css-i6dzq1"
-                    >
-                    <path
-                        d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"
-                    ></path>
-                    <polyline points="14 2 14 8 20 8"></polyline>
-                    <line x1="16" y1="13" x2="8" y2="13"></line>
-                    <line x1="16" y1="17" x2="8" y2="17"></line>
-                    <polyline points="10 9 9 9 8 9"></polyline>
-                    </svg>
-                    
-                </div>
-                <div class="download">
-                    <svg
-                    viewBox="0 0 24 24"
-                    width="24"
-                    height="24"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    fill="none"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="css-i6dzq1"
-                    >
-                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                    <polyline points="7 10 12 15 17 10"></polyline>
-                    <line x1="12" y1="15" x2="12" y2="3"></line>
-                    </svg>
-                </div>
-                </button>
-            </a>
             <div className='menu z-[996] translate-y-[100%] h-screen bg-[rgb(1,32,105)] w-full fixed'>
                 <div className='w-fit h-fit flex items-center gap-3 mx-20 mb-10 max-sm:my-5 max-sm:mx-10'>
                     <a href="#homePage"><h1 onClick={niche} className='text-5xl max-sm:text-5xl font-semibold font-[oswald] w-fit'>Sachin<br/>Reddu</h1></a>

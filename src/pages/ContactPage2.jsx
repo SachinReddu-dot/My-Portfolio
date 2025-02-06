@@ -132,7 +132,7 @@ const ContactPage2 = () => {
 
   return (
     <>
-        <div id='contactPage' className='w-full relative pt-5 pb-7 max-sm:py-0 max-sm:px-0 px-40 font-sans bg-[rgb(1,32,105)]'>
+        <div id='contactPage' className='w-full relative pt-5 pb-7 max-sm:py-0 max-sm:px-0 px-40 font-sans bg-[rgb(1,32,105)] max-sm:bg-black'>
             <div className='w-full h-[95vh] relative flex max-sm:flex-col overflow-hidden max-sm:overflow-visible rounded-xl'>
                 <div className='relative w-1/4 max-sm:h-[250px] max-sm:w-full'>
                     {/* IMAGES */}
@@ -158,7 +158,7 @@ const ContactPage2 = () => {
                         </div></a>                   
                     </div>
                 </div>
-                <div className='w-2/3 max-sm:w-full max-sm:mt-5 bg-black max-sm:bg-[rgb(1,32,105)] rounded-tr-xl rounded-br-xl p-10 max-sm:px-3 max-sm:pt-28'>
+                <div className='w-2/3 max-sm:w-full max-sm:mt-5 bg-black rounded-tr-xl rounded-br-xl p-10 max-sm:px-3 max-sm:pt-28'>
                     <div className='h-full w-full '>
                         <div className='w-full font-sans max-sm:pl-2'>
                             <div className='w-full flex items-center justify-between'>
